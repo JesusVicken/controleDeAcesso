@@ -1,0 +1,67 @@
+.app {
+  padding: 2rem;
+}
+/*Cabeçalho*/
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+
+}
+
+.header h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem ;
+}
+
+/*Forms*/
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: 1.5rem;
+  box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 10px;
+}
+
+.form-container form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputs-container{
+  min-height: 280px;
+
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  
+
+  
+}
+
+label {
+  font-weight: bold;
+  color: #777;
+  font-size: .9rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(44, 40, 40);
+  box-shadow: rgba(99, 99, 99, .2) 0 2px 8px 0;
+}
+
+input:hover {
+  border-bottom: 2px solid rgb(11, 241, 11);
+}
+
+.actions {
+  display: flex;
+  justify-content: end;
+  gap: 260px;
+
+}
